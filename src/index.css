@@ -16,3 +16,36 @@ header{
 header h1{
   font-size: 60px;
 }
+
+.container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.col-12{
+  width: 100%;
+}
+
+label{
+  margin-right: 20px;
+}
+
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-start button{
+  width: 80px;
+  height: 30px;
+  text-align: center;
+}
