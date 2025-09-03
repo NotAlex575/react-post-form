@@ -1,6 +1,8 @@
 const Header = () =>{
     return(
-        <header></header>
+        <header>
+            <h1>React Post Form Esercizio</h1>
+        </header>
     );
 }
 
