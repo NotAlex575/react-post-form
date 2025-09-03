@@ -1,4 +1,10 @@
+import { useState } from "react";
+import axios from "axios";
+
 const Main = () =>{
+
+
+
     return(
         <main>
             <div className="container">
