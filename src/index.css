@@ -44,8 +44,21 @@ label{
   justify-content: flex-start;
 }
 
-.flex-start button{
-  width: 80px;
+label, button{
+  width: 140px;      
+  height: 40px;      
+  font-size: 20px;   
+  cursor: pointer;   
+}
+
+.input-text{
+  width: 220px;      
+  height: 40px;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.input-checkbox{
+  width: 30px;      
   height: 30px;
-  text-align: center;
 }
