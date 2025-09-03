@@ -3,7 +3,15 @@ import axios from "axios";
 
 const Main = () =>{
 
+    const dataFormStarter = {
+        author: "",
+        title: "",
+        body: "",
+        public: false
+    };
 
+    const [dataForm, setDataForm] = useState(dataFormStarter);
+    
 
     return(
         <main>
